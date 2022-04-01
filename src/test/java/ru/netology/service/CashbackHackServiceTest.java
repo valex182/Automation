@@ -51,7 +51,7 @@ public class CashbackHackServiceTest {
     void shouldCalculateRemainWhen1000() {
         int amount = 1000;
         int actual = service.remain(amount);
-        int expected = 1000;
+        int expected = 0;
         assertEquals(actual, expected);
     }
 }
